@@ -40,3 +40,7 @@ var encrypt = function(word){
 
 encrypt("hello");
 ```
+
+## challenge 8
+
+prompt: write a program that will print the song "99 bottles of beer on the wall".
