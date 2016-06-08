@@ -24,7 +24,7 @@ for extra credit, add a "decrypt" function to your program!
 //solution without worrying about numbers, symbols, whitespace
 //only input is string with letters
 
-var letters = ["a","b","c","d","e","f","g","h","i","j","k",'l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+var letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 
 var store = [];
 var map = [];
