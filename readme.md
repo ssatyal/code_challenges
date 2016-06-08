@@ -11,5 +11,5 @@ var name = prompt("name?");
 var age = prompt("age?");
 var username = prompt("reddit username?");
 
-console.log("your name is "+name+", you are "+age+" years old, and your username is "+username);
+alert("your name is "+name+", you are "+age+" years old, and your username is "+username);
 ```
