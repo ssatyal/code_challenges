@@ -44,3 +44,15 @@ encrypt("hello");
 ## challenge 8
 
 prompt: write a program that will print the song "99 bottles of beer on the wall".
+
+```js
+for (var i = 99; i >= 0; i--){
+	if (i===1){
+		console.log(i + " bottle of beer on the wall, "+i+" bottle of beer, you take one down, pass it around, "+(i-1)+" bottles of beer on the wall.")
+	}else if(i===0){
+		console.log("Woops, no more bottles of beer on the wall. We are all drunk now.")
+	}else{
+	console.log(i + " bottles of beer on the wall, " + i+ " bottles of beer, you take one down, pass it around, " + (i-1)+ " bottles of beer on the wall.")
+	}
+}
+```
