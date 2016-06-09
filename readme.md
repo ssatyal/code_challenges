@@ -60,3 +60,13 @@ for (var i = 99; i >= 0; i--){
 ## challenge 11
 
 prompt: The program should take three arguments. The first will be a day, the second will be month, and the third will be year. Then, your program should compute the day of the week that date will fall on.
+
+```js
+//month starts at 0 for Jan
+var calc = function(year, month, day){
+	var d = new Date(year, month, day);
+	return d.getDay();
+}
+
+calc(2016, 5, 9);
+```
