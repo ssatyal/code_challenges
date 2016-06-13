@@ -75,3 +75,23 @@ calc(2016, 5, 9);
 
 prompt: Write a function that takes two strings and removes from the first string any character that appears in the second string. For instance, if the first string is “Daily Programmer” and the second string is “aeiou ” the result is “DlyPrgrmmr”.
 note: the second string has [space] so the space between "Daily Programmer" is removed
+
+```js
+var string1 = [];
+var string2 = [];
+
+var check = function(one, two){
+	string1 = one.split("");
+	string2 = two.split("");
+	for (var i=0; i < string1.length; i++){
+		for (var j=0; j < string2.length; j++){
+			if (string1[i] == string2[j]){
+				string1.splice(i, 1);
+			}
+		}
+	}
+	return string1.join("");
+}
+
+check("daily", "programmer");
+```
