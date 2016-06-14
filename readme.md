@@ -102,3 +102,14 @@ prompt: write an application which will print a triangle of stars of user-specif
 @
 @@
 @@@@
+
+```js
+var str = '';
+var makeIt = function(number){
+	for (var i=1;i<=number; i++){
+		console.log(str += "@");
+	}
+};
+
+makeIt(10);
+```
