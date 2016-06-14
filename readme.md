@@ -95,3 +95,10 @@ var check = function(one, two){
 
 check("daily", "programmer");
 ```
+
+## challenge 17
+
+prompt: write an application which will print a triangle of stars of user-specified height, with each line having twice as many stars as the last. sample output:
+@
+@@
+@@@@
