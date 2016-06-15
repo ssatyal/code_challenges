@@ -113,3 +113,5 @@ var makeIt = function(number){
 
 makeIt(10);
 ```
+## challenge 20[i]
+prompt: create a program that will take user input and tell them their age in months, days, hours, and minutes
