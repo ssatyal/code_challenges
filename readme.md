@@ -115,3 +115,14 @@ makeIt(10);
 ```
 ## challenge 20[i]
 prompt: create a program that will take user input and tell them their age in months, days, hours, and minutes
+```js
+var check = function(years){
+	var months = years * 12;
+	var days = years * 365;
+	var hours = years * 365 * 24;
+	var minutes = years * 365 * 24 * 60;
+	console.log("months: " + months + ", days: " + days + ", hours: "+hours+", and minutes: "+minutes);
+}
+
+check(18);
+```
