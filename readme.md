@@ -126,3 +126,7 @@ var check = function(years){
 
 check(18);
 ```
+## 29[e]
+prompt: A Palindrome is a sequence that is the same in reverse as it is forward.
+I.e. hannah, 12321.
+Your task is to write a function to determine whether a given string is palindromic or not.
