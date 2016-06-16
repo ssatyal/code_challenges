@@ -130,3 +130,15 @@ check(18);
 prompt: A Palindrome is a sequence that is the same in reverse as it is forward.
 I.e. hannah, 12321.
 Your task is to write a function to determine whether a given string is palindromic or not.
+
+```js
+var checkPal = function(string){
+	if (string == string.split("").reverse().join("")){
+		console.log("jes")
+	}else{
+		console.log("no")
+	}
+}
+
+checkPal("lololol");
+```
