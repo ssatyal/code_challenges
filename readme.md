@@ -150,3 +150,19 @@ In this challenge, the
 input is are : 3 numbers as arguments
 output: the sum of the squares of the two larger numbers.
 Your task is to write the indicated challenge.
+
+```js
+
+var doit = function(a,b,c){
+	if (b < a && b < c){
+		return a * a + c * c
+	}else if(a < b && a < c){
+		return b * b + c * c
+	}else{
+		return a * a + b * b
+	}
+}
+
+doit(0,1,3);
+
+```
